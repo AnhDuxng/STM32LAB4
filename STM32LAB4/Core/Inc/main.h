@@ -58,10 +58,17 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define LED_RED_Pin GPIO_PIN_5
-#define LED_RED_GPIO_Port GPIOA
-#define BUTTON_Pin GPIO_PIN_6
-#define BUTTON_GPIO_Port GPIOA
+#define RED_Pin GPIO_PIN_3
+#define RED_GPIO_Port GPIOA
+#define GREEN_Pin GPIO_PIN_4
+#define GREEN_GPIO_Port GPIOA
+#define YELLOW_Pin GPIO_PIN_5
+#define YELLOW_GPIO_Port GPIOA
+#define BLUE_Pin GPIO_PIN_6
+#define BLUE_GPIO_Port GPIOA
+#define PINK_Pin GPIO_PIN_7
+#define PINK_GPIO_Port GPIOA
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */
@@ -71,5 +78,3 @@ void Error_Handler(void);
 #endif
 
 #endif /* __MAIN_H */
-
-/************************ (C) COPYRIGHT STMicroelectronics *****END OF FILE****/

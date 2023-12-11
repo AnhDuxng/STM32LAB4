@@ -1,0 +1,5 @@
+../Core/Src/led_display.c:9:6:toggleRED	1
+../Core/Src/led_display.c:13:6:toggleGREEN	1
+../Core/Src/led_display.c:17:6:toggleYELLOW	1
+../Core/Src/led_display.c:21:6:toggleBLUE	1
+../Core/Src/led_display.c:25:6:togglePINK	1

@@ -18,6 +18,16 @@ typedef struct{
 sTasks SCH_tasks_G[SCH_MAX_TASKS];
 uint8_t current_index_task = 0;
 
+void SCH_MakePlaceForNewTask(uint8_t pos){
+	for (uint8_t i = (current_index_task - 1); i>pos; i--){
+		SCH_tasks_G[i] = SCH_tasks_G[i-1];
+	}
+}
+
+void SCH_Testing(void){
+	  SCH_Add_Task(toggleRED, 0, 0);
+}
+
 void SCH_Add_Task ( void (*pFunction)() , uint32_t DELAY, uint32_t PERIOD){
 	if(current_index_task < SCH_MAX_TASKS){
 
